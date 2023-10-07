@@ -2,36 +2,49 @@ p {
     font-family: Oswald;
 }
 
+body {
+    margin: 0px;
+}
+
 .heading {
     font-weight: bold;
     font-size: 50px;
     text-align: center;
-    margin-top: 20px;
+    margin: 10px 0px;
     color: cyan;
     display: block;
-    background-color: rgb(3, 3, 122);
-    border: solid rgb(38, 38, 170);
+    background-color: rgb(0, 153, 255);
+    border: solid rgb(0, 110, 255);
     border-radius: 5px;
 }
 
 .links {
     text-align: center;
+    display: inline-block;
+    align-content: center;
+    margin: 10px 30px;
 }
 
 .links button {
     font-family: Oswald;
-    border: solid rgb(34, 37, 198);
-    background-color: rgb(0, 60, 255);
-    color: white;
-    padding: 6px 25px;
+    background-color: rgb(0, 153, 255);
+    border: solid rgb(0, 110, 255);
+    border-radius: 5px;
+    color: cyan;
+    padding: 0px 0px;
     cursor: pointer;
     border-radius: 5px;
     transition: 0.15s;
+    display: inline;
 }
 
 .links button:hover {
-    background-color: rgb(87, 124, 246);
-    padding: 8px 32px;
+    background-color: rgb(87, 153, 246);
+    padding: 2px 2px;
+}
+
+.png {
+    display: inline-block;
 }
 
 
